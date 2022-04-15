@@ -1,0 +1,17 @@
+{
+  "name": "task-list-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leandrolimadeveloper/task-list.git",
+  "author": "leandrolimadeveloper <leandroslimasr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "sucrase": "^3.21.0"
+  }
+}
