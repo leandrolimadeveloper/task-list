@@ -31,8 +31,6 @@ class SessionController {
                 expiresIn: authConfig.expiresIn
             })
         })
-
-
     }
 }
 
