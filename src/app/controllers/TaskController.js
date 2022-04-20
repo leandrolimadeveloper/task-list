@@ -38,6 +38,10 @@ class TaskController {
             return res.status(400).json({ error: 'Tarefa não existe' })
         }
 
+        if (task.user_id !== req.userId) {
+            return res.status(401).json({ error: 'Requisição não autorizada' })
+        }
+
         await task.update(req.body)
 
         return res.json(task)
