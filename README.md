@@ -36,7 +36,7 @@ O projeto consiste em uma API para aplicação de cadastro de tarefas, onde o us
 - Params, Querys e afins
 - ESlint
 - Editorconfig
-- Yup
+- Yup — Validação de formato/requisitos de dados (email, senha etc.)
 - Insominia
 
 ## Tecnologias
