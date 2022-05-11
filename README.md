@@ -1,4 +1,12 @@
-# task-list
+<h1 align="center">Task List</h1>
+<p align="center">
+    <a href="#sobre">Sobre |</a>
+    <a href="#tecnologias">Tecnologias |</a>
+    <a href="#instalação">Instalação de dependências e uso |</a>
+    <a href="#endpoints">Endpoints</a>
+</p>
+
+## Sobre
 Projeto desenvolvido no curso 'Curso completo de APIs com Nodejs, Express + MongoDB, SQL', do instrutor Matheus Fraga, na Udemy.
 
 O projeto consiste em uma API de uma aplicação para criação de lista de tarefas, onde é o usuário cadastrado com nome, e-mail e senha pode cadastrar e conluir tarefas, e excluir tarefas não-concluídas. 
