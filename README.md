@@ -9,7 +9,7 @@
 ## Sobre
 Projeto desenvolvido no curso 'Curso completo de APIs com Nodejs, Express + MongoDB, SQL', do instrutor Matheus Fraga, na Udemy.
 
-O projeto consiste em uma API de uma aplicação para cadastro de tarefas, onde o usuário cadastrado com nome, e-mail e senha pode cadastrar e conluir tarefas, e excluir tarefas não-concluídas. 
+O projeto consiste em uma API para aplicação de cadastro de tarefas, onde o usuário cadastrado com nome, e-mail e senha pode cadastrar e conluir tarefas, e excluir tarefas não-concluídas. 
 
 ![image](https://user-images.githubusercontent.com/76854209/167940316-3838467a-03fb-4f37-98e9-10c6d062d833.png)
 ![image](https://user-images.githubusercontent.com/76854209/167939514-cf507743-58c3-46f1-90ce-1b716ed6251d.png)
