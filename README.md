@@ -48,7 +48,7 @@ O projeto consiste em uma API para aplicação de cadastro de tarefas, onde o us
 
 ## Instalação
 
-> Este guia assume que você já tem o Node.js instalado. 
+> Este guia assume que você já tenha o Node.js e o servidor de banco de dados PostgreSQL instalado. 
 
 ```bash
 $ git clone https://github.com/leandrolimadeveloper/task-list.git
