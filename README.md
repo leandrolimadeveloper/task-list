@@ -59,7 +59,6 @@ Para executar o servidor, execute:
 ```
 $ yarn dev
 ```
-
 ### Banco de dados
 Para manipular dados na aplicação deve-se primeiro criar um banco de dados com o nome que você preferir (como 'tasklist', que é o nome do banco de dados da aplicação), e inserir as informações referentes ao PostgreSQL de sua máquina (username e password) no arquivo database.js, localizado em 'src/config/'.  
 
@@ -69,7 +68,8 @@ Para criar as tabelas deve-se executar as migrations com o comando:
 $ yarn sequelize db:migrate
 ```
 
-Caso tenha interesse em visualizar os dados cadastrados, utilize um programa como o Postbird.
+Caso tenha interesse em visualizar os dados cadastrados, utilize um cliente gráfico de gerenciador de banco de dados PostgreSQL como o Postbird:
+
 ![Postbird](https://user-images.githubusercontent.com/76854209/172650237-462e24b7-1f81-4bb8-aaaf-06594b8a2f3f.png)
 ![image](https://user-images.githubusercontent.com/76854209/172651243-faba6bf9-4b1b-4a80-9a0e-c8ade4c1bed1.png)
 
