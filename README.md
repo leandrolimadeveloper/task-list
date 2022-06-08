@@ -26,7 +26,7 @@ O projeto consiste em uma API para aplicação de cadastro de tarefas, onde o us
 - NodeJS
 - Express
 - Migrations
-- Bcrypt — criptografia de tipo hash para senhas
+- Bcrypt — 'Hasheamento' de senha
 - Autenticação JWT
 - Cors
 - Padrões REST
@@ -59,6 +59,19 @@ Para executar o servidor, execute:
 ```
 $ yarn dev
 ```
+
+### Banco de dados
+Para manipular dados na aplicação deve-se primeiro criar um banco de dados com o nome que você preferir (como 'tasklist', que é o nome do banco de dados da aplicação), e inserir as informações referentes ao PostgreSQL de sua máquina (username e password) no arquivo database.js, localizado em 'src/config/'.  
+
+Para criar as tabelas deve-se executar as migrations com o comando:
+
+```
+$ yarn sequelize db:migrate
+```
+
+Caso tenha interesse em visualizar os dados cadastrados, utilize um programa como o Postbird.
+![Postbird](https://user-images.githubusercontent.com/76854209/172650237-462e24b7-1f81-4bb8-aaaf-06594b8a2f3f.png)
+![image](https://user-images.githubusercontent.com/76854209/172651243-faba6bf9-4b1b-4a80-9a0e-c8ade4c1bed1.png)
 
 ## Endpoints 
 (Demonstração de alguns endpoints)
@@ -123,12 +136,3 @@ Exemplo:
 ``` 
 GET /tasks
 ```
-
-## Acessar o banco de dados
-Para acessar os dados cadastrados é necessário utilizar um programa como o Postbird.
-
-### Informações:
-**username**: postgres<br>
-**password**: passdb01<br>
-**database**: tasklist 
- 
